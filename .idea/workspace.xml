@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbf83be-1437-4bc5-992e-c71f1dcc7c93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sites/siteClasses/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/siteClasses/Site.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sites/siteClasses/SocialNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/siteClasses/SocialNetwork.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
