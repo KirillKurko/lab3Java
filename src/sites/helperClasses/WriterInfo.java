@@ -12,8 +12,13 @@ public class WriterInfo {
         System.out.println("Advertising: " + site.getAdvertising());
     }
 
+    public static void printSitePopularity(Site site) {
+        System.out.println("Popularity: " + site.calculatePopularity());
+    }
+
     public static void printSiteInformation(Site site) {
         printSiteName(site);
         printSiteAdvertising(site);
+        printSitePopularity(site);
     }
 }
