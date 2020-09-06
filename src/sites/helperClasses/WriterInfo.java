@@ -1,6 +1,7 @@
 package sites.helperClasses;
 
 import sites.siteClasses.Site;
+import sites.siteClasses.SocialNetwork;
 
 public class WriterInfo {
 
@@ -20,5 +21,19 @@ public class WriterInfo {
         printSiteName(site);
         printSiteAdvertising(site);
         printSitePopularity(site);
+    }
+
+    public static void printSocialNetworkUsersAmount(SocialNetwork socialNetwork) {
+        System.out.println("Users amount: " + socialNetwork.getUsersAmount());
+    }
+
+    public static void printSocialNetworkApplications(SocialNetwork socialNetwork) {
+        System.out.println("Applications: " + socialNetwork.getApplications());
+    }
+
+    public static void printSocialNetworkInformation(SocialNetwork socialNetwork) {
+        printSiteInformation(socialNetwork);
+        printSocialNetworkUsersAmount(socialNetwork);
+        printSocialNetworkApplications(socialNetwork);
     }
 }
