@@ -13,6 +13,7 @@ public class Site {
     public Site(String name, boolean advertising) {
         this.name = name;
         this.advertising = advertising;
+
     }
 
     public Site(String name) {
@@ -39,5 +40,9 @@ public class Site {
 
     public void setAdvertising(boolean advertising) {
         this.advertising = advertising;
+    }
+
+    public int calculatePopularity() {
+        return 0;
     }
 }
