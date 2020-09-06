@@ -46,6 +46,6 @@ public class SocialNetwork extends Site {
 
     @Override
     public int calculatePopularity() {
-        return usersAmount + (applications ? 100 : 0);
+        return super.calculatePopularity() + usersAmount + (applications ? 100 : 0);
     }
 }

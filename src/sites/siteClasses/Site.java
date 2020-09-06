@@ -43,6 +43,6 @@ public class Site {
     }
 
     public int calculatePopularity() {
-        return 0;
+        return advertising ? 50 : 25;
     }
 }

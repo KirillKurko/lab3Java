@@ -47,6 +47,6 @@ public class InformationSite extends Site {
 
     @Override
     public int calculatePopularity() {
-        return newsAmount * 2 + updateFrequency * 10;
+        return super.calculatePopularity() + newsAmount * 2 + updateFrequency * 10;
     }
 }
