@@ -1,5 +1,6 @@
 package sites.helperClasses;
 
+import sites.siteClasses.EducationalSite;
 import sites.siteClasses.InformationSite;
 import sites.siteClasses.Site;
 import sites.siteClasses.SocialNetwork;
@@ -50,5 +51,14 @@ public class WriterInfo {
         printSiteInformation(informationSite);
         printInformationSiteNewsAmount(informationSite);
         printInformationSiteUpdateFrequency(informationSite);
+    }
+
+    public static void printEducationalSiteSubject(EducationalSite educationalSite) {
+        System.out.println("Subject: " + educationalSite.getSubject());
+    }
+
+    public static void printEducationalSiteInformation(EducationalSite educationalSite) {
+        printSiteInformation(educationalSite);
+        printEducationalSiteSubject(educationalSite);
     }
 }
