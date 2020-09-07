@@ -47,6 +47,13 @@ public class InformationSite extends Site {
 
     @Override
     public int calculatePopularity() {
-        return super.calculatePopularity() + newsAmount * 2 + updateFrequency * 10;
+        return newsAmount * 5 + updateFrequency * 10;
+    }
+
+    @Override
+    public void print() {
+        super.print();
+        System.out.println("News amount: " + newsAmount);
+        System.out.println("Update frequency: " + updateFrequency);
     }
 }
