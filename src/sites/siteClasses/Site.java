@@ -48,6 +48,7 @@ abstract public class Site implements SiteInterface, ObjectInterface {
     @Override
     public void print() {
         System.out.println("Name: " + name);
+        System.out.println("Popularity: " + calculatePopularity());
         System.out.println("Advertising: " + advertising);
     }
 }
