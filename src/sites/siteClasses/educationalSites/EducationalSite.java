@@ -1,4 +1,6 @@
-package sites.siteClasses;
+package sites.siteClasses.educationalSites;
+
+import sites.siteClasses.Site;
 
 abstract public class EducationalSite extends Site {
 

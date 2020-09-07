@@ -1,4 +1,4 @@
-package sites.siteClasses;
+package sites.siteClasses.educationalSites;
 
 public class MathEducationalSite extends EducationalSite {
 

@@ -1,6 +1,8 @@
 package sites;
 
 import sites.siteClasses.*;
+import sites.siteClasses.educationalSites.ChemistryEducationalSite;
+import sites.siteClasses.educationalSites.MathEducationalSite;
 
 public class Main {
 
