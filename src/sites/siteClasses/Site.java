@@ -44,4 +44,10 @@ abstract public class Site implements SiteInterface, ObjectInterface {
     public void setAdvertising(boolean advertising) {
         this.advertising = advertising;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Name: " + name);
+        System.out.println("Advertising: " + advertising);
+    }
 }
