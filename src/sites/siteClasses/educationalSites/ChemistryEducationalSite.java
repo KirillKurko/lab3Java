@@ -2,7 +2,7 @@ package sites.siteClasses.educationalSites;
 
 public class ChemistryEducationalSite extends EducationalSite {
 
-    boolean experimentsTutorials;
+    private boolean experimentsTutorials;
 
     public ChemistryEducationalSite() {
         super();
