@@ -1,6 +1,9 @@
 package sites.siteClasses;
 
-public class Site {
+import sites.interfaces.ObjectInterface;
+import sites.interfaces.SiteInterface;
+
+abstract public class Site implements SiteInterface, ObjectInterface {
 
     protected String name;
     protected boolean advertising;
@@ -40,9 +43,5 @@ public class Site {
 
     public void setAdvertising(boolean advertising) {
         this.advertising = advertising;
-    }
-
-    public int calculatePopularity() {
-        return advertising ? 50 : 25;
     }
 }

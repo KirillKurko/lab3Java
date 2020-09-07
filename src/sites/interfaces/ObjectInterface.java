@@ -1,5 +1,5 @@
 package sites.interfaces;
 
-public interface Object {
+public interface ObjectInterface {
     void print();
 }

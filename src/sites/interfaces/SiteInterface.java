@@ -1,5 +1,5 @@
 package sites.interfaces;
 
-public interface Site {
+public interface SiteInterface {
     int calculatePopularity();
 }
