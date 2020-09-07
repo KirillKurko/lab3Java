@@ -1,21 +1,22 @@
 package sites;
 
-import sites.helperClasses.WriterInfo;
-import sites.siteClasses.EducationalSite;
-import sites.siteClasses.InformationSite;
-import sites.siteClasses.SocialNetwork;
+import sites.siteClasses.*;
 
 public class Main {
 
     public static void main(String[] args) {
+
         SocialNetwork socialNetwork = new SocialNetwork("Telegram", false, 50_000_000, false);
         InformationSite informationSite = new InformationSite("NYTimes", true, 10_000, 10);
-        EducationalSite educationalSite = new EducationalSite("Udemy", false, "Programming");
+        MathEducationalSite mathEducationalSite = new MathEducationalSite("School Yourself", false, "Math", 5000);
+        ChemistryEducationalSite chemistryEducationalSite = new ChemistryEducationalSite("Learnchem", false, "Chemistry", true);
 
-        WriterInfo.printSocialNetworkInformation(socialNetwork);
+        socialNetwork.print();
         System.out.println();
-        WriterInfo.printInformationSiteInformation(informationSite);
+        informationSite.print();
         System.out.println();
-        WriterInfo.printEducationalSiteInformation(educationalSite);
+        mathEducationalSite.print();
+        System.out.println();
+        chemistryEducationalSite.print();
     }
 }
