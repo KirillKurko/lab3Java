@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbf83be-1437-4bc5-992e-c71f1dcc7c93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sites/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/sites/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sites/helperClasses/WriterInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sites/siteClasses/ChemistryEducationalSite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sites/siteClasses/EducationalSite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/sites/siteClasses/MathEducationalSite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sites/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sites/siteClasses/ChemistryEducationalSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/siteClasses/educationalSites/ChemistryEducationalSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sites/siteClasses/EducationalSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/siteClasses/educationalSites/EducationalSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sites/siteClasses/MathEducationalSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sites/siteClasses/educationalSites/MathEducationalSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
